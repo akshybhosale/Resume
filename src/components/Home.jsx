@@ -15,7 +15,7 @@ const Home = () => {
     <section id="home" className="h-screen flex flex-col justify-center items-center">
       <div className="max-w-2xl mx-auto text-center bg-opacity-70">
         <p className="font-bold text-grape text-4xl">Hello, I'm</p>
-        <h1 className="text-7xl font-extrabold leading-tight my-5 text-black font-dancing-script">Akshay Bhosale</h1>
+        <h1 className="text-7xl font-extrabold leading-tight my-5 text-black font-dancing-script">Akshay</h1>
         <p className="text-lg text-grape font-medium mb-7">A FRONTEND WEB DEVELOPER</p>
         <div className="flex space-x-4 justify-center">
           {socialMediaLinks.map((link, index) => (
